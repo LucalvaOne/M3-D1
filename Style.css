@@ -1,0 +1,39 @@
+.jumbotron h1{
+color:brown;
+}
+nav > *{
+    color:blue;
+}
+.jumbotron a{
+    color:green;
+}
+.blog-main{
+    background-color:orange;
+}
+.blog-main hr{
+    border-color:red;
+}
+nav > span:nth-child(odd){
+    font-size:2rem;
+}
+.p-4 > ol:first-of-type{
+    background:purple;
+}
+.blog-main .blog-post:nth-child(3) > p.blog-post-meta a{
+    background-color:pink;
+}
+.blog-main .blog-post:nth-child(4) > ul >li:nth-child(2){
+    color:white;
+}
+.float-right a{
+    color:red;
+}
+a.float-right{
+    text-decoration:none;
+}
+.blog-pagination > a.btn.btn-outline-secondary.disabled{
+    background-color:white;
+}
+.blog-footer > p > a:last-of-type{
+    color:white;
+}
